@@ -1,0 +1,1287 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+  max-width: 1920px;
+  scrollbar-width: none;
+  overflow-x: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 1920px;
+}
+
+@import url(https://fonts.google.com/specimen/Playfair+Display);
+@import url(https://fonts.google.com/specimen/Caudex?query=caudex);
+@import url(https://fonts.google.com/specimen/Inter?preview.text=OCEAN%20GRACE&query=inter);
+body {
+  background: #f5f5f5;
+}
+.navbar,
+.navbar * {
+  box-sizing: border-box;
+}
+
+.foto {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  object-fit: cover;
+}
+
+/* .button {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 170px;
+  height: 55px;
+  position: absolute;
+  left: 1482px;
+  top: 54px;
+  backdrop-filter: blur(5.1px);
+} */
+.gallery {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 319px;
+  top: 70px;
+  width: 68px;
+  height: 23px;
+}
+.gallery::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.gallery:hover::after {
+      width: 100%;
+}
+.menu {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 569px;
+  top: 70px;
+  width: 53px;
+  height: 23px;
+}
+.menu::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menu:hover::after {
+      width: 100%;
+}
+.about-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 553px;
+  top: 70px;
+  width: 85px;
+  height: 23px;
+}
+
+.about-us::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-us:hover::after {
+      width: 100%;
+}
+.reservation {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 297px;
+  top: 70px;
+  width: 112px;
+  height: 23px;
+  display: inline-block;
+}
+
+.reservation::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+.reservation:hover::after {
+      width: 100%;
+
+}
+
+.logo {
+   width: 346.75px;
+  height: 147px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 346.75/147;
+}
+
+.a-logo:hover{
+  opacity: 60%;
+}
+.headlineutama {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 112.2205810546875px;
+  line-height: 134.68px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 790px);
+  top: 683px;
+  width: 1515px;
+  height: 385px;
+}
+
+    #typewriter {
+      font-size: 110px;
+      line-height: 134.68px;
+      border-right: 2px solid rgb(251, 251, 251);
+      white-space: pre-line;
+      overflow: hidden;
+    }
+
+    .cursor {
+      animation: blink 0.7s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    
+.gradient {
+    position: absolute;
+    left: 1920;
+    top: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #000000;
+    opacity: 5%;
+}
+.groupq-126,
+.groupq-126 * {
+  box-sizing: border-box;
+  top: 308px;
+}
+.groupq-126 {
+  position: relative;
+}
+.groupq-158 {
+  width: 1920px;
+  height: 1080px;
+  position: static;
+}
+.rectangleq-38 {
+  background: #f5f5f5;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.about-usq {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 308px;
+  width: 688px;
+}
+.welcome-to-ocean-grace-a-coastal-dining-destination-where-luxury-is-reflected-in-every-detail-here-the-beauty-of-nature-blends-harmoniously-with-the-art-of-cuisine-creating-an-atmosphere-that-not-only-captivates-the-senses-but-leaves-a-lasting-impressionq {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 451px;
+  width: 653px;
+  height: 245px;
+}
+
+.groupa-128,
+.groupa-128 * {
+  box-sizing: border-box;
+  top: 377px;
+}
+.groupa-128 {
+  position: relative;
+}
+.groupa-59 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.rectanglea-41 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - -85px);
+  top: 7px;
+}
+.rectanglea-44 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - 595px);
+  top: 7px;
+}
+
+.groupx-159,
+.groupx-159 * {
+  box-sizing: border-box;
+  top: 526px;
+  left: 5px;
+}
+.groupx-159 {
+  position: relative;
+}
+.oceanx-grace {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.our-philosophyx {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 73px;
+  width: 688px;
+}
+.we-believe-that-food-is-not-just-a-necessity-but-also-an-art-form-and-an-emotional-experience-therefore-we-are-committed-tox {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 221px;
+  width: 759px;
+  height: 76px;
+}
+
+.groupc-127,
+.groupc-127 * {
+  box-sizing: border-box;
+  top: 900px;
+  left: 40px;
+}
+.groupc-127 {
+  position: relative;
+}
+.groupc-68 {
+  width: 480px;
+  height: 540px;
+  position: static;
+  transition: transform 0.3s ease;
+}
+
+.groupc-68 :hover {
+  cursor: default;
+  transform: scale(1.02);
+}
+.pexels-patrick-leung-113942109-9714370c {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+/* .pexels-patrick-leung-113942109-97143702c {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 204, 204, 0) 45.192307233810425%,
+    rgba(0, 0, 0, 1) 80.64220547676086%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+} */
+.using-selected-fresh-seafood-from-local-fishermenc {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 426px;
+  width: 386px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupc-69 {
+  width: 480px;
+  height: 540px;
+  position: static;
+  transition: transform 0.3s ease;
+}
+
+.groupc-69 :hover {
+  cursor: default;
+  transform: scale(1.02);
+}
+
+.meritt-thomas-a-u-5-g-zl-ll-q-unsplashc {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 510px;
+  top: 0px;
+  object-fit: cover;
+}
+/* .pexels-patrick-leung-113942109-97143703c {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 204, 204, 0) 26.623615622520447%,
+    rgba(0, 0, 0, 1) 77.70442366600037%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  left: 750px;
+} */
+.serving-dishes-with-artistic-presentationc {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 560px;
+  top: 426px;
+  width: 304px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupc-89 {
+  width: 480px;
+  height: 540px;
+  position: static;
+  transition: transform 0.3s ease;
+}
+
+.groupc-89 :hover {
+  cursor: default;
+  transform: scale(1.02);
+}
+
+.pexels-reneterp-1581384c {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 1020px;
+  top: 0px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-97143704c {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 78.84615659713745%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 1020px;
+  top: 0px;
+}
+.providing-service-full-of-warmth-and-elegancec {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1070px;
+  top: 426px;
+  width: 329px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.groupv-129,
+.groupv-129 * {
+  box-sizing: border-box;
+  top: 271px;
+}
+.groupv-129 {
+  position: relative;
+}
+.groupv-59 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.rectanglev-41 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - -85px);
+  top: 7px;
+}
+.rectanglev-44 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - 595px);
+  top: 7px;
+}
+
+.groupb-160,
+.groupb-160 * {
+  box-sizing: border-box;
+  top: 431px;
+}
+.groupb-160 {
+  position: relative;
+}
+.ocean-graceb {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.special-experienceb {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 61.18px;
+  width: 738px;
+}
+.enjoy-the-various-experiences-that-are-our-specialtyb {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 209.18px;
+  width: 466px;
+  height: 76px;
+}
+
+.groupn-160,
+.groupn-160 * {
+  box-sizing: border-box;
+  top: 768px;
+}
+.groupn-160 {
+  position: relative;
+}
+.private-dining-area-in-a-beachside-gazebon {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: 480px;
+  top: 67px;
+  width: 706px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.live-acoustic-music-every-nightn {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: 480px;
+  top: 134px;
+  width: 543px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.romantic-terrace-with-sunset-viewn {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: 480px;
+  top: 201px;
+  width: 682px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chef-s-exclusive-curated-seasonal-menun {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: 480px;
+  top: 0px;
+  width: 683px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.group1-160,
+.group1-160 * {
+  box-sizing: border-box;
+  top: 25px;
+  left: 400px;
+}
+.group1-160 {
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+
+.groupm-132,
+.groupm-132 * {
+  box-sizing: border-box;
+  top: 345px;
+}
+.groupm-132 {
+  position: relative;
+}
+.groupm-59 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.rectanglem-41 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - -85px);
+  top: 7px;
+}
+.rectanglem-44 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - 595px);
+  top: 7px;
+}
+
+.groupl-161,
+.groupl-161 * {
+  box-sizing: border-box;
+  top: 505px;
+}
+.groupl-161 {
+  position: relative;
+}
+.ocean-gracel {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.who-we-are-here-forl {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 61.18px;
+  width: 613px;
+}
+.ocean-grace-is-designed-for-guests-who-wantl {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 305.18px;
+  width: 563px;
+  height: 76px;
+}
+
+.groupk-162,
+.groupk-162 * {
+  box-sizing: border-box;
+  top: 998px;
+}
+.groupk-162 {
+  position: relative;
+}
+.romantic-dinner-with-sea-viewk {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Italic", sans-serif;
+  font-size: 19.207971572875977px;
+  line-height: 32.72px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 370px;
+  translate: -50%;
+  top: 448.99px;
+  width: 300.92px;
+  height: 32.01px;
+}
+.pexels-pixabay-237272k {
+  width: 768.32px;
+  height: 432.18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.groupj-163,
+.groupj-163 * {
+  box-sizing: border-box;
+  top: 1732px;
+}
+.groupj-163 {
+  position: relative;
+}
+.premium-dining-experience-by-the-beachj {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Italic", sans-serif;
+  font-size: 22.799999237060547px;
+  line-height: 38.84px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 1150px;
+  translate: -50%;
+  top: 532.98px;
+  width: 470px;
+  height: 38px;
+}
+._1746782323483j {
+  width: 912px;
+  height: 513px;
+  position: absolute;
+  left: 680px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.grouph-166,
+.grouph-166 * {
+  box-sizing: border-box;
+  top: 2600px;
+}
+.grouph-166 {
+  position: relative;
+}
+.a-special-moment-celebrated-in-an-elegant-settingh {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Italic", sans-serif;
+  font-size: 18.299999237060547px;
+  line-height: 31.17px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 370px;
+  translate: -50%;
+  top: 427.63px;
+  width: 500px;
+  height: 31px;
+}
+.calamari-ringsh {
+  width: 732px;
+  height: 411.75px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.groupp-167,
+.groupp-167 * {
+  box-sizing: border-box;
+  top: 3290px;
+}
+.groupp-167 {
+  position: relative;
+}
+.a-momentary-escape-from-the-routine-in-a-calm-and-luxurious-atmospherep {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Italic", sans-serif;
+  font-size: 22.799999237060547px;
+  line-height: 38.84px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  left: 1150px;
+  translate: -50%;
+  top: 532.98px;
+  width: 562px;
+  height: 38px;
+}
+.calamari-rings-1p {
+  width: 912px;
+  height: 513px;
+  position: absolute;
+  left: 680px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.groupg-134,
+.groupg-134 * {
+  box-sizing: border-box;
+  top: 4348px
+}
+.groupg-134 {
+  position: relative;
+}
+.groupg-59 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.rectangle-41g {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - -85px);
+  top: 7px;
+}
+.rectangle-44g {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 510px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - 595px);
+  top: 7px;
+}
+
+.groupo-168,
+.groupo-168 * {
+  box-sizing: border-box;
+  top: 4570px;
+}
+.groupo-168 {
+  position: relative;
+}
+.ocean-graceo {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.our-commitmento {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 61.18px;
+  width: 688px;
+}
+.owe-are-committed-to-making-every-visit-to-ocean-grace-an-extraordinary-culinary-experience-from-the-first-impression-to-the-last-bite-with-a-perfect-blend-of-flavors-visuals-and-service-we-are-here-to-touch-hearts-through-the-beauty-of-taste {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 209.18px;
+  width: 767px;
+  height: 163px;
+}
+
+.rectangle-52i,
+.rectangle-52i * {
+  box-sizing: border-box;
+  top: 5200px;
+  left: -170px;
+}
+.rectangle-52i {
+  height: 1080px;
+  position: relative;
+  object-fit: cover;
+}
+
+.groupu-135,
+.groupu-135 * {
+  box-sizing: border-box;
+  top: 4420px;
+}
+.groupu-135 {
+  position: relative;
+}
+.rectangleu-29 {
+  background: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 1022px;
+  height: 467px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  backdrop-filter: blur(5.1px);
+}
+.ocean-grace-is-ready-to-welcome-your-special-momentu {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.76px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 104px;
+  width: 850px;
+  height: 200px;
+}
+.groupu-109 {
+  width: 243.85px;
+  height: 62.75px;
+  position: static;
+}
+.rectangleu-1 {
+  width: 243.85px;
+  height: 62.75px;
+  position: absolute;
+  left: 640px;
+  top: 330px;
+  overflow: visible;
+}
+.reserve-nowu {
+  color: #783226;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19.063390731811523px;
+  font-weight: 700;
+  position: absolute;
+  left: 680px;
+  top: 350px;
+  width: 162.83px;
+  height: 23.03px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.groupr-113,
+.groupr-113 * {
+  box-sizing: border-box;
+  top: 5106px;
+  left: 32px;
+}
+.groupr-113 {
+  position: relative;
+}
+.rectangler-28 {
+  width: 1920px;
+  height: 270px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+
+
+.infooceangrace-cor {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 135px;
+  width: 218px;
+  height: 23px;
+}
+
+
+
+.vectorr {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 36.98%;
+  left: 61.61%;
+  bottom: 47.78%;
+  top: 109px;
+  overflow: visible;
+}
+
+.vectorr:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+
+
+.group-2r {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 61.93%;
+  left: 36.41%;
+  bottom: 47.46%;
+  top: 109px;
+  overflow: visible;
+}
+
+.group-2r:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+
+.vector2r {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 57.08%;
+  left: 41.25%;
+  top: 109px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.vector2r:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-iconsr {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 700px;
+  top: 108px;
+  overflow: visible;
+}
+
+.social-iconsr:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons2r {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 780px;
+  top: 109px;
+  overflow: visible;
+}
+
+.social-icons2r:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons3r {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 860px;
+  top: 108px;
+  overflow: visible;
+}
+
+.social-icons3r:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.group-175,
+.group-175 * {
+  box-sizing: border-box;
+  top: 5020px;
+}
+.group-175 {
+  position: relative;
+}
+.gallery2 {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 82px;
+  height: 23px;
+}
+
+.gallery2::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -68px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.gallery2:hover::after {
+      width: 100%;
+}
+
+.menu2 {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 55px;
+  width: 67px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu2::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menu2:hover::after {
+      width: 100%;
+}
+.about-us2 {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1238px;
+  top: 5px;
+  width: 105px;
+  height: 23px;
+}
+
+.about-us2::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -68px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-us2:hover::after {
+      width: 100%;
+}
+
+.reservation2 {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1450px;
+  top: 5px;
+  width: 150px;
+  height: 23px;
+}
+
+.reservation2::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -68px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.reservation2:hover::after {
+      width: 100%;
+}

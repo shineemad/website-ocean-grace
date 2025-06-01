@@ -1,0 +1,4556 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+  max-width: 1920px;
+  scrollbar-width: none;
+  overflow-x: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 1920px;
+}
+
+@import url(https://fonts.google.com/specimen/Playfair+Display);
+@import url(https://fonts.google.com/specimen/Caudex?query=caudex);
+@import url(https://fonts.google.com/specimen/Inter?preview.text=OCEAN%20GRACE&query=inter);
+body {
+  background: #f5f5f5;
+}
+.navbar,
+.navbar * {
+  box-sizing: border-box;
+}
+
+.foto {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  object-fit: cover;
+}
+
+/* .button {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 170px;
+  height: 55px;
+  position: absolute;
+  left: 1482px;
+  top: 54px;
+  backdrop-filter: blur(5.1px);
+} */
+.gallery {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 319px;
+  top: 70px;
+  width: 68px;
+  height: 23px;
+}
+.gallery::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.gallery:hover::after {
+      width: 100%;
+}
+.menu {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 569px;
+  top: 70px;
+  width: 53px;
+  height: 23px;
+}
+.menu::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menu:hover::after {
+      width: 100%;
+}
+.about-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 553px;
+  top: 70px;
+  width: 85px;
+  height: 23px;
+}
+
+.about-us::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-us:hover::after {
+      width: 100%;
+}
+.reservation {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 297px;
+  top: 70px;
+  width: 112px;
+  height: 23px;
+  display: inline-block;
+}
+
+.reservation::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+.reservation:hover::after {
+      width: 100%;
+
+}
+
+.logo {
+   width: 346.75px;
+  height: 147px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 346.75/147;
+}
+
+.a-logo:hover{
+  opacity: 60%;
+}
+.headlineutama {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 112.2205810546875px;
+  line-height: 134.68px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 790px);
+  top: 683px;
+  width: 1515px;
+  height: 385px;
+}
+
+    #typewriter {
+      font-size: 130px;
+      line-height: 134.68px;
+      border-right: 2px solid rgb(251, 251, 251);
+      white-space: pre-line;
+      overflow: hidden;
+    }
+
+    .cursor {
+      animation: blink 0.7s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    
+.gradient {
+    position: absolute;
+    left: 1920;
+    top: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #000000;
+    opacity: 10%;
+}
+
+
+section {
+    padding: 0px;
+    margin: 0px;
+}
+.judul-menu,
+.judul-menu * {
+  box-sizing: border-box;
+  top: 308px;
+}
+.judul-menu {
+  position: relative;
+}
+.menu-list {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  width: 688px;
+}
+.welcome-to-the-finest-taste-of-the-sea-each-dish-is-crafted-from-the-finest-fresh-ingredients-with-great-craftsmanship-providing-a-warm-and-sophisticated-dining-experience-explore-our-menu-and-find-your-favorite-dishes-at-ocean-grace {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 143px;
+  width: 653px;
+  height: 245px;
+}
+
+/* .line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px 0 0 0;
+  width: 138px;
+  height: 0px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 629px;
+} */
+
+.navbar-menu,
+.navbar-menu * {
+  box-sizing: border-box;
+  top: 1072px;
+}
+.navbar-menu {
+  position: relative;
+}
+.appetizer {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 40.900001525878906px;
+  line-height: 57.26px;
+  font-weight: 700;
+  position: absolute;
+  left: 229px;
+  top: 0px;
+  width: 184px;
+}
+
+.a-appetizer {
+  color: #243352;
+  text-decoration: none;
+}
+
+.a-appetizer::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: #243352;
+      transition: width 0.5s ease;
+}
+.a-appetizer:hover::after {
+      width: 100%;
+}
+.main-course {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 40.900001525878906px;
+  line-height: 57.26px;
+  font-weight: 700;
+  position: absolute;
+  left: 514px;
+  top: 0px;
+  width: 230px;
+}
+
+.a-main-course {
+  color: #243352;
+  text-decoration: none;
+}
+
+.a-main-course::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: #243352;
+      transition: width 0.5s ease;
+}
+.a-main-course:hover::after {
+      width: 100%;
+}
+
+.seafood-platter {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 40.900001525878906px;
+  line-height: 57.26px;
+  font-weight: 700;
+  position: absolute;
+  left: 855px;
+  top: 0px;
+  width: 287px;
+}
+
+.a-seafood-platter {
+  color: #243352;
+  text-decoration: none;
+}
+
+.a-seafood-platter::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: #243352;
+      transition: width 0.5s ease;
+}
+.a-seafood-platter:hover::after {
+      width: 100%;
+}
+
+.beverages {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 40.900001525878906px;
+  line-height: 57.26px;
+  font-weight: 700;
+  position: absolute;
+  right: 489px;
+  top: 0px;
+  width: 191px;
+}
+
+.a-beverages {
+  color: #243352;
+  text-decoration: none;
+}
+
+.a-beverages::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: #243352;
+      transition: width 0.5s ease;
+}
+.a-beverages:hover::after {
+      width: 100%;
+}
+
+.dessert {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 40.900001525878906px;
+  line-height: 57.26px;
+  font-weight: 700;
+  position: absolute;
+  right: 249px;
+  top: 0px;
+  width: 144px;
+}
+
+.a-dessert {
+  color: #243352;
+  text-decoration: none;
+}
+
+.a-dessert::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: #243352;
+      transition: width 0.5s ease;
+}
+.a-dessert:hover::after {
+      width: 100%;
+}
+
+.pembatas1,
+.pembatas1 * {
+  box-sizing: border-box;
+  top: 1179px;
+}
+
+.pembatas1 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  height: 12px;
+  position: relative;
+  width: 1556px;
+  left: 50%;
+  translate: -50%;
+}
+
+.pembuka-menu,
+.pembuka-menu * {
+  box-sizing: border-box;
+  top: 1321px;
+}
+.pembuka-menu {
+  position: relative;
+}
+.diamond {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 74px;
+  overflow: visible;
+}
+.ocean-grace {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.judul-pembuka-menu {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 132px;
+  width: 607px;
+}
+
+
+
+.kotak-1,
+.kotak-1 * {
+  box-sizing: border-box;
+  display: flex;
+
+}
+.kotak-1 {
+  position: relative;
+  transform: translateY(1662px);
+  left: 170px;
+}
+
+img {
+    display: flex;
+}
+.group-115 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-116 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-117 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.kotak-2,
+.kotak-2 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-2 {
+  position: relative;
+  transform: translateY(1692px);
+  left: 170px;
+}
+.group-118 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.pembatas-2,
+.pembatas-2 * {
+  box-sizing: border-box;
+  top: 1940px;
+  left: 365px;
+}
+.pembatas-2 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  height: 12px;
+  position: relative;
+  width: 1190px;
+  left: 365px;
+}
+
+
+.pembuka-menu-2,
+.pembuka-menu-2 * {
+  box-sizing: border-box;
+  top: 2082px;
+}
+.pembuka-menu-2 {
+  position: relative;
+}
+.diamond-2 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 65px;
+  overflow: visible;
+}
+.ocean-grace-2 {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.judul-pembuka-menu-2 {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 132px;
+  width: 607px;
+}
+
+.kotak-3,
+.kotak-3 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-3 {
+  position: relative;
+  transform: translateY(2411px);
+  left: 170px;
+}
+.group-115 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", -serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-116 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-117 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.kotak-4,
+.kotak-4 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-4 {
+  position: relative;
+  transform: translateY(2441px);
+  left: 170px;
+}
+.group-118 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.pembatas3,
+.pembatas3 * {
+  box-sizing: border-box;
+  top: 2719px;
+  display: flex;
+}
+.pembatas3 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  height: 12px;
+  position: relative;
+  width: 1190px;
+
+  left: 365px;
+}
+
+
+.pembuka-menu-3,
+.pembuka-menu-3 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.pembuka-menu-3 {
+  position: relative;
+  top: 2861px;
+}
+.diamond-3 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 65px;
+  overflow: visible;
+}
+.ocean-grace-3 {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.judul-pembuka-menu-3 {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 740px;
+  top: 120.18px;
+  width: 607px;
+}
+
+
+.kotak-5,
+.kotak-5 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-5 {
+  position: relative;
+  transform: translateY(3180px);
+  left: 170px;
+}
+.group-115 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-116 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-117 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.kotak-6,
+.kotak-6 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-6 {
+  position: relative;
+  transform: translateY(3210px);
+  left: 170px;
+}
+.group-118 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.pembatas4,
+.pembatas4 * {
+  box-sizing: border-box;
+  top: 3488px;
+  display: flex;
+}
+.pembatas4 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  height: 12px;
+  position: relative;
+  width: 1190px;
+  left: 365px;
+}
+
+
+.pembuka-menu-4,
+.pembuka-menu-4 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.pembuka-menu-4 {
+  position: relative;
+  top: 3630px;
+}
+.diamond-4 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 65px;
+  overflow: visible;
+}
+.ocean-grace-4 {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.judul-pembuka-menu-4 {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 715px;
+  top: 120.18px;
+  width: 607px;
+}
+
+
+.group-177,
+.group-177 * {
+  box-sizing: border-box;
+  display: flex;
+  top: 3949px;
+  left: 170px;
+}
+.group-177 {
+  position: relative;
+}
+.group-118 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+
+.kotak-8,
+.kotak-8 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-8 {
+  position: relative;
+  transform: translateY(3989px);
+  left: 170px;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._48-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.cucumber-mint-refresher {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._55-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.seaside-sunrise {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._50-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.lemongrass-citrus-infusion {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.pembatas5,
+.pembatas5 * {
+  box-sizing: border-box;
+  top: 4267px;
+  display: flex;
+}
+.pembatas5 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  height: 12px;
+  position: relative;
+  width: 1190px;
+  left: 365px;
+}
+
+
+.pembuka-menu-5,
+.pembuka-menu-5 * {
+  box-sizing: border-box;
+  top: 4409px;
+  display: flex;
+}
+.pembuka-menu-5 {
+  position: relative;
+}
+.diamond-5 {
+  width: 95px;
+  height: 25.03px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 65px;
+  overflow: visible;
+}
+.ocean-grace-5 {
+  width: 225.48px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.judul-pembuka-menu-5 {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 790px;
+  top: 120.18px;
+  width: 607px;
+}
+
+
+.kotak-9,
+.kotak-9 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-9 {
+  position: relative;
+  transform: translateY(4728px);
+  left: 170px;
+}
+.group-115 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-116 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-117 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.kotak-10,
+.kotak-10 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.kotak-10 {
+  position: relative;
+  transform: translateY(4768px);
+  left: 170px;
+}
+.group-118 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-78 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.group-72 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-39 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-59 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-77 {
+  width: 373px;
+  height: 101px;
+  position: static;
+}
+.rectangle-21 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50px;
+  top: 336px;
+  overflow: visible;
+}
+.star-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 83px;
+  top: 336px;
+  overflow: visible;
+}
+.star-3 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 115px;
+  top: 336px;
+  overflow: visible;
+}
+.star-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 148px;
+  top: 336px;
+  overflow: visible;
+}
+.star-5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 181px;
+  top: 336px;
+  overflow: visible;
+}
+.group-119 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-392 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-592 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 537px;
+  top: 0px;
+}
+.rectangle-212 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 839px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 877px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter2 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-12 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 587px;
+  top: 336px;
+  overflow: visible;
+}
+.star-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 620px;
+  top: 336px;
+  overflow: visible;
+}
+.star-32 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 652px;
+  top: 336px;
+  overflow: visible;
+}
+.star-42 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 685px;
+  top: 336px;
+  overflow: visible;
+}
+.star-52 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 718px;
+  top: 336px;
+  overflow: visible;
+}
+.group-120 {
+  width: 507px;
+  height: 410px;
+  position: static;
+}
+.rectangle-393 {
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-593 {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(0, 0, 0, 1) 85.00000238418579%
+  );
+  opacity: 0.5;
+  width: 507px;
+  height: 410px;
+  position: absolute;
+  left: 1074px;
+  top: 0px;
+}
+.rectangle-213 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.09);
+  border-width: 1px;
+  width: 121px;
+  height: 58px;
+  position: absolute;
+  left: 1376px;
+  top: 283px;
+  backdrop-filter: blur(5.1px);
+}
+._56-k3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1414px;
+  top: 300px;
+  width: 45px;
+  height: 24px;
+}
+.grilled-lobster-with-herb-butter3 {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1124px;
+  top: 259px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1124px;
+  top: 336px;
+  overflow: visible;
+}
+.star-23 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1157px;
+  top: 336px;
+  overflow: visible;
+}
+.star-33 {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 1189px;
+  top: 336px;
+  overflow: visible;
+}
+.star-43 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1222px;
+  top: 336px;
+  overflow: visible;
+}
+.star-53 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1255px;
+  top: 336px;
+  overflow: visible;
+}
+
+
+.CTA ,
+.CTA * {
+  box-sizing: border-box;
+}
+.CTA {
+  height: 1080px;
+  position: relative;
+  object-fit: cover;
+  transform: translateY(5046px);
+}
+
+
+.group-110,
+.group-110 * {
+  box-sizing: border-box;
+  display: flex;
+}
+.group-110 {
+  position: relative;
+  top: 4296px;
+}
+.rectangle-29 {
+  background: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 1022px;
+  height: 467px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  backdrop-filter: blur(5.1px);
+}
+.discover-more-exciting-options-at-ocean-grace {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.76px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 104px;
+  width: 764px;
+  height: 200px;
+}
+.group-109 {
+  width: 243.85px;
+  height: 62.75px;
+  position: static;
+}
+.rectangle-1 {
+  width: 243.85px;
+  height: 62.75px;
+  position: absolute;
+  left: 842px;
+  top: 303px;
+  overflow: visible;
+}
+.reserve-now {
+  color: #783226;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19.063390731811523px;
+  font-weight: 700;
+  position: absolute;
+  left: 883px;
+  top: 322.86px;
+  width: 162.83px;
+  height: 23.03px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.rectangle-28,
+.rectangle-28 * {
+  box-sizing: border-box;
+  top: 4966px;
+}
+.rectangle-28 {
+  height: 270px;
+  position: relative;
+  overflow: visible;
+  padding: 0px;
+}
+
+
+.group-183l,
+.group-183l * {
+  box-sizing: border-box;
+  top: 4820px;
+  left: 160px;
+}
+.group-183l {
+  position: relative;
+}
+.group-175l {
+  width: 1590px;
+  height: 27px;
+  position: static;
+  left: 60px;
+}
+.galleryl {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  width: 82px;
+  height: 23px;
+}
+
+.galleryl::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.galleryl:hover::after {
+      width: 100%;
+}
+
+.menul {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 205px;
+  top: 20px;
+  width: 67px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menul::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menul:hover::after {
+      width: 100%;
+}
+
+.about-usl {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1274px;
+  top: 19px;
+  width: 105px;
+  height: 23px;
+}
+
+.about-usl::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-usl:hover::after {
+      width: 100%;
+}
+
+.reservationl {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1470px;
+  top: 19px;
+  width: 145px;
+  height: 23px;
+}
+
+.reservationl::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.reservationl:hover::after {
+      width: 100%;
+}
+
+.infooceangrace-col {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 280px);
+  top: 71px;
+  width: 218px;
+  height: 23px;
+}
+.vectorl {
+  width: 27px;
+  height: 33px;
+  position: absolute;
+  right: 40%;
+  left: 56%;
+  bottom: 64.89%;
+  top: 0%;
+  overflow: visible;
+}
+
+.vectorl:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.vector2l {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 58.24%;
+  left: 49%;
+  top: 2px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.vector2l:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-iconsl {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 578px;
+  top: 0px;
+  overflow: visible;
+}
+
+.social-iconsl:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons2l {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 710px;
+  top: 1px;
+  overflow: visible;
+}
+
+.social-icons2l:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons3l {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 830px;
+  top: 0px;
+  overflow: visible;
+}
+
+.social-icons3l:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.group-147l {
+  width: 32.03px;
+  height: 32.87px;
+  position: absolute;
+  right: 64.09%;
+  left: 450px;
+  bottom: 63.97%;
+  top: 1.06%;
+  overflow: visible;
+}
+
+.group-147l:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+

@@ -1,0 +1,1676 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+  max-width: 1920px;
+  scrollbar-width: none;
+  overflow-x: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 1920px;
+}
+
+@import url(https://fonts.google.com/specimen/Playfair+Display);
+@import url(https://fonts.google.com/specimen/Caudex?query=caudex);
+@import url(https://fonts.google.com/specimen/Inter?preview.text=OCEAN%20GRACE&query=inter);
+body {
+  background: #f5f5f5;
+}
+.navbar,
+.navbar * {
+  box-sizing: border-box;
+}
+
+.foto {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  object-fit: cover;
+}
+
+/* .button {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 170px;
+  height: 55px;
+  position: absolute;
+  left: 1482px;
+  top: 54px;
+  backdrop-filter: blur(5.1px);
+} */
+.gallery {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 319px;
+  top: 70px;
+  width: 68px;
+  height: 23px;
+}
+.gallery::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.gallery:hover::after {
+      width: 100%;
+}
+.menu {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 569px;
+  top: 70px;
+  width: 53px;
+  height: 23px;
+}
+.menu::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menu:hover::after {
+      width: 100%;
+}
+.about-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 553px;
+  top: 70px;
+  width: 85px;
+  height: 23px;
+}
+
+.about-us::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-us:hover::after {
+      width: 100%;
+}
+.reservation {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 297px;
+  top: 70px;
+  width: 112px;
+  height: 23px;
+  display: inline-block;
+}
+
+.reservation::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+.reservation:hover::after {
+      width: 100%;
+
+}
+
+.logo {
+   width: 346.75px;
+  height: 147px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 36px;
+  object-fit: cover;
+  aspect-ratio: 346.75/147;
+}
+
+.a-logo:hover{
+  opacity: 60%;
+}
+.headlineutama {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 112.2205810546875px;
+  line-height: 134.68px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 790px);
+  top: 683px;
+  width: 1515px;
+  height: 385px;
+}
+
+    #typewriter {
+      font-size: 126px;
+      line-height: 134.68px;
+      border-right: 2px solid rgb(251, 251, 251);
+      white-space: pre-line;
+      overflow: hidden;
+    }
+
+    .cursor {
+      animation: blink 0.7s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    
+.gradient {
+    position: absolute;
+    left: 1920;
+    top: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #000000;
+    opacity: 20%;
+}
+
+.a-mbol :hover {
+  opacity: 80%;
+  transform: rotate(45deg);
+}
+
+.a-mbol2 :hover {
+  opacity: 80%;
+  transform: rotate(45deg);
+}
+
+.a-mbol3 :hover {
+  opacity: 80%;
+  transform: rotate(45deg);
+}
+
+.group-53,
+.group-53 * {
+  box-sizing: border-box;
+  top: 267px;
+  left: 474px;
+}
+.group-53 {
+  position: relative;
+  
+}
+.elegant-seafood-dining-experience {
+  color: #243352;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 688px;
+}
+.ocean-grace-is-not-just-a-restaurant-but-an-art-in-seafood-located-on-the-beautiful-beach-we-present-a-warm-atmosphere-crashing-waves-and-calming-sunset-light-from-the-interior-design-to-the-presentation-of-the-dishes-every-detail-is-prepared-to-pamper-your-senses {
+  color: #243352;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 340px;
+  top: 284px;
+  width: 632px;
+}
+
+.group-71,
+.group-71 * {
+  box-sizing: border-box;
+  top: 1070px;
+  left: px;
+
+}
+.group-71 {
+  position: relative;
+}
+.ocean-grace1 {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 142px;
+}
+.exclusive-moments-at-our-restaurant {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 274px;
+  width: 607px;
+}
+.rectangle-412 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 1190px;
+  height: 12px;
+  position: absolute;
+  translate: -50%;
+  top: 0px;
+  left: 50%;
+}
+.group-431 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 216px;
+  overflow: visible;
+}
+.group-68 {
+  width: 480px;
+  height: 540px;
+  position: static;
+}
+.pexels-patrick-leung-113942109-9714370 {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 211px;
+  top: 483px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-97143702 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 83.65384340286255%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 210px;
+  top: 483px;
+}
+.iconic-location-on-the-beach {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 250px;
+  top: 517px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.enjoy-delicious-dishes-accompanied-by-the-sea-breeze-and-a-stunning {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 250px;
+  top: 906px;
+  width: 247px;
+  height: 71px;
+}
+.group-54 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 580px;
+  top: 910px;
+  overflow: visible;
+}
+.group-69 {
+  width: 480px;
+  height: 540px;
+  position: static;
+}
+.meritt-thomas-a-u-5-g-zl-ll-q-unsplash {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 720px;
+  top: 483px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-97143703 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 78.84615659713745%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 960px;
+  translate: -50%;
+  top: 483px;
+}
+.high-quality-premium-seafood {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 760px;
+  top: 517px;
+  width: 242px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.we-use-only-the-finest-fresh-ingredients-handpicked-from-the {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 760px;
+  top: 906px;
+  width: 240px;
+  height: 71px;
+}
+.group-55 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 1090px;
+  top: 910px;
+  overflow: visible;
+}
+.group-70 {
+  width: 480px;
+  height: 540px;
+  position: static;
+}
+.pexels-reneterp-1581384 {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 1230px;
+  top: 483px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-97143704 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 78.84615659713745%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 1230px;
+  top: 483px;
+}
+.elegant-atmosphere-of-calm-romance {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1270px;
+  top: 517px;
+  width: 270px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-interior-is-designed-with-an-elegant-and-minimalist-feel {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1270px;
+  top: 906px;
+  width: 247px;
+  height: 68px;
+}
+.group-56 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 1600px;
+  top: 910px;
+  overflow: visible;
+}
+
+.group-72,
+.group-72 * {
+  box-sizing: border-box;
+  left: 145px;
+  top: 828px;
+}
+.group-72 {
+  position: relative;
+}
+.enjoy-our-finest-menu-selections-prepared-with-fresh-seafood-and-a-touch-of-ocean-grace-s-signature-flavors-from-signature-grilled-lobster-to-lemon-butter-oysters-each-dish-delivers-an-unforgettable-taste-perfect-for-a-romantic-meal-family-dinner-or-simply-pampering-yourself-by-the-sea {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.9px;
+  font-weight: 400;
+  position: absolute;
+  left: 45%;
+  translate: -50%;
+  top: 1296px;
+  width: 1156px;
+  height: 211px;
+}
+.group-59 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 216px;
+  overflow: visible;
+}
+.group-60 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 25px;
+  top: 825px;
+  overflow: visible;
+}
+.group-39 {
+  width: 1384px;
+  height: 778.5px;
+  position: static;
+}
+.rectangle-39 {
+  width: 1384px;
+  height: 778.5px;
+  position: absolute;
+  left: 115px;
+  top: 483px;
+  object-fit: cover;
+}
+.foto-makanan-yg-diedit-terus-disambung {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 70.75827026367188px;
+  line-height: 115.53px;
+  font-weight: 400;
+  position: absolute;
+  left: 460px;
+  top: 700px;
+}
+.ocean-grace {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 45%;
+  translate: -50%;
+  top: 142px;
+}
+.our-spesial-offers {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 45%;
+  translate: -50%;
+  top: 274px;
+  width: 607px;
+}
+.rectangle-411 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 1190px;
+  height: 12px;
+  position: absolute;
+  left: 42%;
+  translate: -50%;
+  top: 0px;
+}
+.group-59 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left:43%;
+  top: 216px;
+  overflow: visible;
+}
+
+.group-63,
+.group-63 * {
+  box-sizing: border-box;
+}
+.group-63 {
+  position: relative;
+}
+.group-15 {
+  width: 1920px;
+  height: 1080px;
+  position: static;
+}
+.pexels-cottonbro-3338672 {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 1920px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+}
+.chef-word-s {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 924px;
+  top: 308px;
+  width: 688px;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 25.799999237060547px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 924px;
+  top: 443px;
+  width: 826px;
+  height: 80px;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite-span2 {
+  font-family: "Inter-MediumItalic", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.chef-ardi-mahendra-executive-chef-ocean-grace {
+  color: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  left: 924px;
+  top: 587px;
+  width: 802px;
+  height: 82px;
+}
+
+.group-89,
+.group-89 * {
+  box-sizing: border-box;
+  top: 1070px;
+}
+.group-89 {
+  position: relative;
+}
+.ocean-grace1 {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 142px;
+}
+.exclusive-moments-at-our-restaurant {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 274px;
+  width: 607px;
+}
+.rectangle-41 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 1190px;
+  height: 12px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.group-43 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 216px;
+  overflow: visible;
+}
+.group-68 {
+  width: 480px;
+  height: 540px;
+  position: static;
+}
+.pexels-patrick-leung-113942109-9714370 {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 210px;
+  top: 483px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-97143702 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 83.65384340286255%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 210px;
+  top: 483px;
+}
+.iconic-location-on-the-beach {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 260px;
+  top: 517px;
+  width: 219px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.enjoy-delicious-dishes-accompanied-by-the-sea-breeze-and-a-stunning {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 260px;
+  top: 906px;
+  width: 247px;
+  height: 71px;
+}
+.group-54 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 576px;
+  top: 910px;
+  overflow: visible;
+}
+.group-69 {
+  width: 480px;
+  height: 540px;
+  position: static;
+}
+.meritt-thomas-a-u-5-g-zl-ll-q-unsplash {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 720px;
+  top: 483px;
+  object-fit: cover;
+}
+.pexels-patrick-leung-113942109-971437031 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 78.84615659713745%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: 720px;
+  top: 483px;
+}
+.high-quality-premium-seafood {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 770px;
+  top: 517px;
+  width: 242px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.we-use-only-the-finest-fresh-ingredients-handpicked-from-the {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 770px;
+  top: 906px;
+  width: 240px;
+  height: 71px;
+}
+.group-55 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 1086px;
+  top: 910px;
+  overflow: visible;
+}
+.pexels-patrick-leung-113942109-97143704 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(204, 204, 204, 0) 49.51923191547394%,
+    rgba(0, 0, 0, 1) 78.84615659713745%
+  );
+  opacity: 0.5;
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  left: calc(50% - -270px);
+  top: 483px;
+}
+
+.elegant-atmosphere-of-calm-romance {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  left: 1280px;
+  top: 517px;
+  width: 300px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-interior-is-designed-with-an-elegant-and-minimalist-feel {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1280px;
+  top: 906px;
+  width: 247px;
+  height: 68px;
+}
+.group-56 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  right: 260px;
+  top: 910px;
+  overflow: visible;
+}
+
+.pexels-reneterp-1581384 {
+  width: 480px;
+  height: 540px;
+  position: absolute;
+  right: 210px;
+  top: 483px;
+  object-fit: cover;
+}
+
+.group-90,
+.group-90 * {
+  box-sizing: border-box;
+  top: 878px;
+}
+.group-90 {
+  position: relative;
+}
+.group-39 {
+  width: 1384px;
+  height: 1507px;
+  position: static;
+}
+.group-91 {
+  width: 1384px;
+  height: 1507px;
+  position: static;
+}
+.sembarang {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  transform: translateX(265%);
+  top: 142px;
+}
+.enjoy-our-finest-menu-selections-prepared-with-fresh-seafood-and-a-touch-of-ocean-grace-s-signature-flavors-from-signature-grilled-lobster-to-lemon-butter-oysters-each-dish-delivers-an-unforgettable-taste-perfect-for-a-romantic-meal-family-dinner-or-simply-pampering-yourself-by-the-sea {
+  color: #243352;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 40.9px;
+  font-weight: 400;
+  position: absolute;
+  left: 200%;
+  translate: -50%;
+  top: 1296px;
+  width: 1156px;
+  height: 211px;
+}
+.our-spesial-offers {
+  color: #243352;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.71px;
+  font-weight: 700;
+  position: absolute;
+  left: 200%;
+  translate: -50%;
+  top: 274px;
+  width: 607px;
+}
+.rectangle-412 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 1190px;
+  height: 12px;
+  position: absolute;
+  left: 200%;
+  translate: -50%;
+  top: 0px;
+}
+.rectangle-39 {
+  background: #d9d9d9;
+  width: 1384px;
+  height: 778.5px;
+  position: absolute;
+  left: 268px;
+  top: 483px;
+}
+    .slides {
+      display: flex;
+      width: 300%; /* jumlah slide x 100% */
+      height: 100%;
+      animation: slide 20s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(-100%); }
+      25% { transform: translateX(-100%); }
+      24% { transform: translateX(-200%); }
+      25% { transform: translateX(-100%); }
+      25% { transform: translateX(-200%); }
+      100% { transform: translateX(-8%); }
+    }
+.foto-makanan-yg-diedit-terus-disambung {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 70.75827026367188px;
+  line-height: 115.53px;
+  font-weight: 400;
+  position: absolute;
+  left: 450px;
+  top: 700px;
+}
+.group-59 {
+  width: 95px;
+  height: 25px;
+  transform: rotate('30deg');
+  position: absolute;
+  left: 1750px;
+  top: 825px;
+  overflow: visible;
+}
+.group-602 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 98px;
+  top: 825px;
+  overflow: visible;
+}
+.group-592 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 190%;
+  top: 216px;
+  overflow: visible;
+}
+
+.group-63,
+.group-63 * {
+  box-sizing: border-box;
+  top: 950px;
+}
+.group-63 {
+  position: relative;
+}
+.group-15 {
+  width: 1920px;
+  height: 1080px;
+  position: static;
+}
+.pexels-cottonbro-3338672 {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 1920px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+}
+.chef-word-s {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 80.15714263916016px;
+  line-height: 96.24px;
+  font-weight: 700;
+  position: absolute;
+  left: 924px;
+  top: 308px;
+  width: 688px;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 25.799999237060547px;
+  line-height: 40.88px;
+  font-weight: 400;
+  position: absolute;
+  left: 924px;
+  top: 443px;
+  width: 826px;
+  height: 80px;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+}
+.every-ingredient-i-choose-every-flavor-i-create-i-always-start-with-one-question-how-do-i-make-our-guests-smile-at-the-first-bite-span2 {
+  font-family: "Inter-MediumItalic", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.chef-ardi-mahendra-executive-chef-ocean-grace {
+  color: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  left: 924px;
+  top: 587px;
+  width: 802px;
+  height: 82px;
+}
+.chef-ardi-mahendra-executive-chef-ocean-grace-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 28.799999237060547px;
+  line-height: 40.88px;
+  font-weight: 700;
+}
+.chef-ardi-mahendra-executive-chef-ocean-grace-span2 {
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 25.799999237060547px;
+  line-height: 40.88px;
+  font-weight: 400;
+}
+
+.group-92,
+.group-92 * {
+  box-sizing: border-box;
+  top: 1289px;
+  left: 730px;
+}
+.group-92 {
+  position: relative;
+}
+.bring-a-luxurious-touch-to-your-moment {
+  color: #243352;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 80.16000366210938px;
+  line-height: 96.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 270px;
+  width: 880px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bring-a-luxurious-touch-to-your-moment-span {
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-weight: 700;
+}
+.bring-a-luxurious-touch-to-your-moment-span2 {
+  font-family: "PlayfairDisplay-Italic", serif;
+  font-style: italic;
+}
+.ocean-grace {
+  color: #243352;
+  text-align: center;
+  font-family: "Caudex-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 40.88px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 142px;
+}
+.rectangle-43 {
+  border-style: solid;
+  border-color: #243352;
+  border-width: 2px;
+  width: 1190px;
+  height: 12px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.group-643 {
+  width: 95px;
+  height: 25px;
+  position: absolute;
+  left: 40%;
+  top: 216px;
+  overflow: visible;
+}
+.group-652 {
+  width: 575px;
+  height: 365px;
+  position: static;
+  left: 0px;
+}
+.private-romantic-dinner {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 550px;
+  width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.engagement-proposal-event {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 617px;
+  width: 496px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.birthday-celebration {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 684px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.corporate-dinner {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 751px;
+  width: 336px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chef-s-table-experience {
+  color: #243352;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 34.08333206176758px;
+  line-height: 96.24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 164px);
+  top: 818px;
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  right: 250px;
+  left: 10px;
+  bottom: 32.44%;
+  top: 580px;
+  overflow: visible;
+}
+.icon2 {
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  left: 10px;
+  top: 645px;
+  overflow: visible;
+}
+.icon3 {
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  right: 66.64%;
+  left: 10px;
+  bottom: 17.42%;
+  top: 710px;
+  overflow: visible;
+}
+.icon4 {
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  right: 66.64%;
+  left: 10px;
+  bottom: 9.9%;
+  top: 780px;
+  overflow: visible;
+}
+.icon5 {
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  right: 66.64%;
+  left: 10px;
+  bottom: 2.39%;
+  top: 845px;
+  overflow: visible;
+}
+
+.rectanglem-51,
+.rectanglem-51 * {
+  box-sizing: border-box;
+  top: 1107px;
+  left: -729px;
+}
+.rectanglem-51 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  height: 1080px;
+  position: relative;
+  object-fit: cover;
+}
+
+.groupb-110,
+.groupb-110 * {
+  box-sizing: border-box;
+  top: 400px;
+  left: -49px;
+}
+.groupb-110 {
+  position: relative;
+}
+.rectangleb-29 {
+  background: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 1px;
+  width: 1022px;
+  height: 467px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  backdrop-filter: blur(5.1px);
+}
+.ocean-grace-is-ready-to-welcome-your-special-momentb {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold", serif;
+  font-size: 57.25714111328125px;
+  line-height: 68.76px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 104px;
+  width: 820px;
+  height: 200px;
+}
+.groupb-109 {
+  width: 243.85px;
+  height: 62.75px;
+  position: static;
+}
+.rectangleb-1 {
+  width: 243.85px;
+  height: 62.75px;
+  position: absolute;
+  left: 170px;
+  top: 300px;
+  overflow: visible;
+}
+
+.rectangleb-1 :hover {
+  background-image: url(svg.foto/Rectangle\ 1\ \(1\).svg);
+}
+
+.reserveb-now {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19.063390731811523px;
+  font-weight: 700;
+  position: absolute;
+  left: 210px;
+  top: 320px;
+  width: 162.83px;
+  height: 23.03px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reserveb-now:hover {
+  color: #783226;
+
+}
+
+
+.arrowb-1 {
+  width: 28.6px;
+  height: 0px;
+  position: absolute;
+  left: 574px;
+  top: 334px;
+  overflow: visible;
+}
+
+.groupx-113,
+.group-x113 * {
+  box-sizing: border-box;
+  top: 1038px;
+  left: -58px;
+}
+.groupx-113 {
+  position: relative;
+}
+.rectanglex-28 {
+  width: 1920px;
+  height: 270px;
+  position: absolute;
+  left: -672px;
+  top: 0px;
+  overflow: visible;
+}
+.galleryx {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: -440px;
+  top: 127px;
+  width: 82px;
+  height: 23px;
+}
+
+.galleryx::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.galleryx:hover::after {
+      width: 100%;
+}
+.infooceangrace-cox {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 200px;
+  top: 182px;
+  width: 218px;
+  height: 23px;
+}
+.menux {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: -250px;
+  top: 128px;
+  width: 67px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menux::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.menux:hover::after {
+      width: 100%;
+}
+      
+.about-usx {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 750px;
+  top: 127px;
+  width: 105px;
+  height: 23px;
+}
+
+.about-usx::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.about-usx:hover::after {
+      width: 100%;
+}
+.reservationx {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 950px;
+  top: 127px;
+  width: 145px;
+  height: 23px;
+}
+
+.reservationx::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: -8px;
+      left: 0;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      transition: width 0.5s ease;
+}
+.reservationx:hover::after {
+      width: 100%;
+}
+.vectorx {
+  width: 27px;
+  height: 33px;
+  position: absolute;
+  right: 36.98%;
+  left: 580px;
+  bottom: 47.78%;
+  top: 109px;
+  overflow: visible;
+}
+
+.vectorx:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.group-2x {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 61.93%;
+  left: 30px;
+  bottom: 47.46%;
+  top: 109px;
+  overflow: visible;
+}
+
+.group-2x:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.vector2x {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 57.08%;
+  left: 140px;
+  top: 109px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.vector2x:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-iconsx {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 250px;
+  top: 108px;
+  overflow: visible;
+}
+
+.social-iconsx:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons2x {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 360px;
+  top: 109px;
+  overflow: visible;
+}
+
+.social-icons2x:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
+.social-icons3x {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 470px;
+  top: 108px;
+  overflow: visible;
+}
+
+.social-icons3x:hover {
+  opacity: 60%;
+  transition: opacity 0.3s ease;
+}
